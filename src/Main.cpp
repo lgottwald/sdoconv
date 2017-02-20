@@ -106,7 +106,7 @@ int main( int argc, char const* argv[] )
          mdlFiles.push_back( *iter );
       else if( boost::algorithm::ends_with( *iter, ".voc" ) )
          vocFiles.push_back( *iter );
-      else if( boost::algorithm::ends_with( *iter, ".vop" ) )
+      else if( boost::algorithm::ends_with( *iter, ".vop" ) || boost::algorithm::ends_with( *iter, ".sdo" ) )
       {
          try
          {
